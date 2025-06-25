@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     var count = readln().toInt()
     do {

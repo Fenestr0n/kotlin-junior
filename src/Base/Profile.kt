@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     print("Input your name: ")
     val name = readln()

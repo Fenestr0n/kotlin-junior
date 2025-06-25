@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     println("The weather is good? true/else: ")
     val isGoodWeater = readln().toBoolean()

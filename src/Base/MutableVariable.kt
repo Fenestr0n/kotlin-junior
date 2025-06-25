@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     var temperature = readln().toInt()
     var airConditionerIsOn = false

@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     val countOfApples: Float = 10f
     val countOfPeople: Float = 4.0f

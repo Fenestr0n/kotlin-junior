@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     val temperature = readln().toInt()
     if (temperature > 25) {

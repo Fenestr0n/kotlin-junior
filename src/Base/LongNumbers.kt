@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     val numbers = 0..1_000_000_000L
     var sum = 0L

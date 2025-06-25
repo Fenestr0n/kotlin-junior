@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     print("Enter password: ")
     val password = readln().toCharArray()

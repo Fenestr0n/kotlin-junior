@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     print("How was your expirience with us? (enter a number from 1 to 5): ")
     val rating = readln()

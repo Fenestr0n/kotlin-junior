@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     print("Enter first number: ")
     val firstNumber = readln().toDouble()

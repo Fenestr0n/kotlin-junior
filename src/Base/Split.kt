@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     val daysOfWeekAsString = "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
     val daysOfWeek = daysOfWeekAsString.split(", ")

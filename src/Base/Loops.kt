@@ -1,3 +1,5 @@
+package Base
+
 fun main() {
     val names = listOf("John", "Mike", "Nick", "Helen", "Alex", "Emma")
     print("Enter name: ")

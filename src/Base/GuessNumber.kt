@@ -1,3 +1,5 @@
+package Base
+
 import kotlin.random.Random
 
 fun main() {
