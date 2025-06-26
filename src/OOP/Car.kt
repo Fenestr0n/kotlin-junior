@@ -9,4 +9,10 @@ class Car {
     fun drive() {
         println("Еду на автомобиле")
     }
+
+    fun refuel(stationName: String, fuelType: String, liters: Int) {
+        println("Произведена заправка на АЗС \"${stationName}\"")
+        println("Марка бензина: $fuelType")
+        println("Кол-во литров: $liters")
+    }
 }
