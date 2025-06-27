@@ -6,8 +6,19 @@ class Car {
     var enginePower: Int = 0
     var bodyColor: String = ""
 
-    fun drive() {
-        println("Еду на автомобиле")
+    fun init(brand: String, model: String, enginePower: Int, bodyColor: String) {
+        this.brand = brand
+        this.model = model
+        this.enginePower = enginePower
+        this.bodyColor = bodyColor
+    }
+
+    fun drive(enginePower: Int) {
+        if (enginePower >= 120) {
+            println("Еду быстро, но недалеко на ${brand} ${model}")
+        } else {
+            println("Еду далеко, но небыстро на ${brand} ${model}")
+        }
     }
 
     fun refuel(stationName: String, fuelType: String, liters: Int) {

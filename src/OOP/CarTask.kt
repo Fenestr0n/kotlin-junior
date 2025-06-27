@@ -2,10 +2,12 @@ package OOP
 
 fun main() {
     val info = readln().split(" ")
-    val stationName = info[0]
+    val model = info[0]
     val fuelType = info[1]
-    val liters = info[2].toInt()
+    val enginePower = info[2].toInt()
+    val bodyColor = info[3]
 
     val car = Car()
-    car.refuel(stationName, fuelType, liters)
+    car.init(model, fuelType, enginePower, bodyColor)
+    car.drive(enginePower)
 }
